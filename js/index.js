@@ -20,6 +20,7 @@ if (hacker1.length > hacker2.length){
 // Iteration 3: Loops
 
 //3.1 
+
 let newHacker1 = '';
 
 
@@ -31,9 +32,11 @@ console.log(newHacker1);
 
 
 //3.2
-/*
-for (let i = 0; i < hacker2.length; i--){
-    console.log(hacker2.reverse);
+let revHacker2 = ''; 
+for (let i =  hacker2.length -1; i >= 0;  i--){
+    revHacker2 += (hacker2[i]);
 } 
-*/
+console.log(revHacker2);
+
+//3.3
 
